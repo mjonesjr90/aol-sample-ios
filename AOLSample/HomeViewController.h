@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *btnBannerAd;
+@property (weak, nonatomic) IBOutlet UIButton *btnInterstitialAd;
+@property (weak, nonatomic) IBOutlet UIButton *btnNativeAd;
 
 @end

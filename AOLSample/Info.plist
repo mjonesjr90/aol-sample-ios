@@ -20,6 +20,22 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This interaction requires calendar access.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This feature requires using the camera.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app wants to display nearby features.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This feature requires a stored image.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>This interaction will add a reminder.</string>
+    
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

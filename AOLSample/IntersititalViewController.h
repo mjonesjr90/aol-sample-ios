@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MMAdSDK/MMAdSDK.h>
 
-@interface IntersititalViewController : UIViewController
+@interface IntersititalViewController : UIViewController <MMInterstitialDelegate>
+
+@property (strong, nonatomic) MMInterstitialAd *interstitialAd;
 
 @end

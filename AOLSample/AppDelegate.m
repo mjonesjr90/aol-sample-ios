@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <MMAdSDK/MMAdSDK.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //Set my Site ID
+    MMAppSettings* appSettings = [[MMAppSettings alloc] init];
+    appSettings.siteId = @"SITE_ID_HERE";
+    
+    [[MMSDK sharedInstance] initializeWithSettings:appSettings withUserSettings:nil];
     return YES;
 }
 

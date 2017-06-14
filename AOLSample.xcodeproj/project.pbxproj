@@ -54,7 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9928EEE71E817CD000A3F3BF /* MJ Test iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MJ Test iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9928EEE71E817CD000A3F3BF /* AOLSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOLSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9928EEEB1E817CD000A3F3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9928EEED1E817CD000A3F3BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9928EEEE1E817CD000A3F3BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,10 +62,10 @@
 		9928EEF61E817CD000A3F3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9928EEF91E817CD000A3F3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9928EEFB1E817CD000A3F3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9928EF001E817CD000A3F3BF /* MJ Test iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MJ Test iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9928EF001E817CD000A3F3BF /* AOLSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOLSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9928EF041E817CD000A3F3BF /* MJ_Test_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJ_Test_iOSTests.m; sourceTree = "<group>"; };
 		9928EF061E817CD000A3F3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9928EF0B1E817CD000A3F3BF /* MJ Test iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MJ Test iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9928EF0B1E817CD000A3F3BF /* AOLSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOLSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9928EF0F1E817CD000A3F3BF /* MJ_Test_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJ_Test_iOSUITests.m; sourceTree = "<group>"; };
 		9928EF111E817CD000A3F3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9928EF211E8180CD00A3F3BF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -138,7 +138,7 @@
 		9928EEDE1E817CCF00A3F3BF = {
 			isa = PBXGroup;
 			children = (
-				9928EEE91E817CD000A3F3BF /* MJ Test iOS */,
+				9928EEE91E817CD000A3F3BF /* AOLSample */,
 				9928EF031E817CD000A3F3BF /* MJ Test iOSTests */,
 				9928EF0E1E817CD000A3F3BF /* MJ Test iOSUITests */,
 				9928EEE81E817CD000A3F3BF /* Products */,
@@ -149,14 +149,14 @@
 		9928EEE81E817CD000A3F3BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9928EEE71E817CD000A3F3BF /* MJ Test iOS.app */,
-				9928EF001E817CD000A3F3BF /* MJ Test iOSTests.xctest */,
-				9928EF0B1E817CD000A3F3BF /* MJ Test iOSUITests.xctest */,
+				9928EEE71E817CD000A3F3BF /* AOLSample.app */,
+				9928EF001E817CD000A3F3BF /* AOLSampleTests.xctest */,
+				9928EF0B1E817CD000A3F3BF /* AOLSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9928EEE91E817CD000A3F3BF /* MJ Test iOS */ = {
+		9928EEE91E817CD000A3F3BF /* AOLSample */ = {
 			isa = PBXGroup;
 			children = (
 				9928EEED1E817CD000A3F3BF /* AppDelegate.h */,
@@ -173,7 +173,7 @@
 				9928EEFB1E817CD000A3F3BF /* Info.plist */,
 				9928EEEA1E817CD000A3F3BF /* Supporting Files */,
 			);
-			path = "MJ Test iOS";
+			path = AOLSample;
 			sourceTree = "<group>";
 		};
 		9928EEEA1E817CD000A3F3BF /* Supporting Files */ = {
@@ -229,9 +229,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9928EEE61E817CCF00A3F3BF /* MJ Test iOS */ = {
+		9928EEE61E817CCF00A3F3BF /* AOLSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9928EF141E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "MJ Test iOS" */;
+			buildConfigurationList = 9928EF141E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "AOLSample" */;
 			buildPhases = (
 				9928EEE31E817CCF00A3F3BF /* Sources */,
 				9928EEE41E817CCF00A3F3BF /* Frameworks */,
@@ -241,14 +241,14 @@
 			);
 			dependencies = (
 			);
-			name = "MJ Test iOS";
+			name = AOLSample;
 			productName = "MJ Test iOS";
-			productReference = 9928EEE71E817CD000A3F3BF /* MJ Test iOS.app */;
+			productReference = 9928EEE71E817CD000A3F3BF /* AOLSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9928EEFF1E817CD000A3F3BF /* MJ Test iOSTests */ = {
+		9928EEFF1E817CD000A3F3BF /* AOLSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9928EF171E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "MJ Test iOSTests" */;
+			buildConfigurationList = 9928EF171E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "AOLSampleTests" */;
 			buildPhases = (
 				9928EEFC1E817CD000A3F3BF /* Sources */,
 				9928EEFD1E817CD000A3F3BF /* Frameworks */,
@@ -259,14 +259,14 @@
 			dependencies = (
 				9928EF021E817CD000A3F3BF /* PBXTargetDependency */,
 			);
-			name = "MJ Test iOSTests";
+			name = AOLSampleTests;
 			productName = "MJ Test iOSTests";
-			productReference = 9928EF001E817CD000A3F3BF /* MJ Test iOSTests.xctest */;
+			productReference = 9928EF001E817CD000A3F3BF /* AOLSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9928EF0A1E817CD000A3F3BF /* MJ Test iOSUITests */ = {
+		9928EF0A1E817CD000A3F3BF /* AOLSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9928EF1A1E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "MJ Test iOSUITests" */;
+			buildConfigurationList = 9928EF1A1E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "AOLSampleUITests" */;
 			buildPhases = (
 				9928EF071E817CD000A3F3BF /* Sources */,
 				9928EF081E817CD000A3F3BF /* Frameworks */,
@@ -277,9 +277,9 @@
 			dependencies = (
 				9928EF0D1E817CD000A3F3BF /* PBXTargetDependency */,
 			);
-			name = "MJ Test iOSUITests";
+			name = AOLSampleUITests;
 			productName = "MJ Test iOSUITests";
-			productReference = 9928EF0B1E817CD000A3F3BF /* MJ Test iOSUITests.xctest */;
+			productReference = 9928EF0B1E817CD000A3F3BF /* AOLSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -310,7 +310,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9928EEE21E817CCF00A3F3BF /* Build configuration list for PBXProject "MJ Test iOS" */;
+			buildConfigurationList = 9928EEE21E817CCF00A3F3BF /* Build configuration list for PBXProject "AOLSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -323,9 +323,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9928EEE61E817CCF00A3F3BF /* MJ Test iOS */,
-				9928EEFF1E817CD000A3F3BF /* MJ Test iOSTests */,
-				9928EF0A1E817CD000A3F3BF /* MJ Test iOSUITests */,
+				9928EEE61E817CCF00A3F3BF /* AOLSample */,
+				9928EEFF1E817CD000A3F3BF /* AOLSampleTests */,
+				9928EF0A1E817CD000A3F3BF /* AOLSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -391,12 +391,12 @@
 /* Begin PBXTargetDependency section */
 		9928EF021E817CD000A3F3BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9928EEE61E817CCF00A3F3BF /* MJ Test iOS */;
+			target = 9928EEE61E817CCF00A3F3BF /* AOLSample */;
 			targetProxy = 9928EF011E817CD000A3F3BF /* PBXContainerItemProxy */;
 		};
 		9928EF0D1E817CD000A3F3BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9928EEE61E817CCF00A3F3BF /* MJ Test iOS */;
+			target = 9928EEE61E817CCF00A3F3BF /* AOLSample */;
 			targetProxy = 9928EF0C1E817CD000A3F3BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -526,10 +526,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = "MJ Test iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AOLSample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.malcomjones.MJ-Test-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malcomjones.AOLSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -545,10 +545,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = "MJ Test iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AOLSample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.malcomjones.MJ-Test-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malcomjones.AOLSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -562,7 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aol.MJ-Test-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJ Test iOS.app/MJ Test iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOLSample.app/AOLSample";
 			};
 			name = Debug;
 		};
@@ -575,7 +575,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aol.MJ-Test-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJ Test iOS.app/MJ Test iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOLSample.app/AOLSample";
 			};
 			name = Release;
 		};
@@ -606,7 +606,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9928EEE21E817CCF00A3F3BF /* Build configuration list for PBXProject "MJ Test iOS" */ = {
+		9928EEE21E817CCF00A3F3BF /* Build configuration list for PBXProject "AOLSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9928EF121E817CD000A3F3BF /* Debug */,
@@ -615,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9928EF141E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "MJ Test iOS" */ = {
+		9928EF141E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "AOLSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9928EF151E817CD000A3F3BF /* Debug */,
@@ -624,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9928EF171E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "MJ Test iOSTests" */ = {
+		9928EF171E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "AOLSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9928EF181E817CD000A3F3BF /* Debug */,
@@ -633,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9928EF1A1E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "MJ Test iOSUITests" */ = {
+		9928EF1A1E817CD000A3F3BF /* Build configuration list for PBXNativeTarget "AOLSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9928EF1B1E817CD000A3F3BF /* Debug */,
